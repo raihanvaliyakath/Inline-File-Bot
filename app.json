@@ -82,8 +82,10 @@
             "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
             "value": "300",
             "required": false
-        }
-    },
+     }   "TO_CHANNEL" : {
+          "description" : "optional For File Forwardimg"
+    },    "FROM_CHANNEL" :"optional Forward From Which Channel That channel should be Public"
+          "description" : 
     "addons": [],
     "buildpacks": [
         {
