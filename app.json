@@ -82,7 +82,8 @@
             "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
             "value": "300",
             "required": false
-        }
+        } "FROM_CHANNEL" : {
+          "description" : "OPTIONAL FORWARD FROM WHICH CHANNEL"
     },
     "addons": [],
     "buildpacks": [
